@@ -82,15 +82,11 @@ button:hover{
 {
 	body{
 		background-image: url(mobile-bg.png);
-		
-		padiing:0;
 	}
 	.container{
-		height: 55%;
-		max-height: 400px;
-		margin-left: 20%;
+		margin:0 auto;
 		width: 90%;
-		max-width:300px;
+		max-width:400px;
 		padding-right: 60px;
 
 	}
