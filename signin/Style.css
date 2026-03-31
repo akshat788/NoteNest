@@ -1,0 +1,79 @@
+Body{
+    background-image:url("Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	overflow:hidden;
+    margin:0;
+    padding: 0;
+    font-family: "Baloo 2", sans-serif;
+}
+.container{
+    text-allign: center;
+    position: absolute;
+    background: rgb(255,255,255,0.3);
+	backdrop-filter: blur(10px);
+    width: 30%;
+    height: 50%;
+    margin: 80px 30%;
+    border-radius: 20px;
+	padding:5%;
+	
+}
+.container h3{
+	text-align:center;
+	font-size:200%;
+	font-weight:900;
+	color:white;
+}
+	
+	
+.input-box input{
+	padding:15px;
+	width:100%;
+	border-radius:20px;
+	border:0;
+	Background:rgb(255,255,255,0.2);
+	backdrop-filter: blur(12px);
+	
+}
+.fgt{
+	text-align:end;
+	
+	
+}
+.fgt a{
+	color:#464647;
+	text-decoration:none;
+}
+button{
+	margin-top:30px;
+	margin-left:40%;
+	text-align:center;
+	padding:3%;
+	border-radius:50px;
+	border:0;
+	Background:rgb(255,255,255,0.2);
+	backdrop-filter: blur(12px);
+	width:20%;
+	font-weight:700;
+}
+
+.acc{
+	text-align:center;
+}
+.acc a{
+	color:#464647;
+	text-decoration:none;
+}
+
+input::placeholder{
+	color:block;
+	font-size:14px;
+}
+button:hover{
+	transform: scale(1.06);
+	transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+
+}
