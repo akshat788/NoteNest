@@ -10,7 +10,7 @@ Body{
     font-family: "Baloo 2", sans-serif;
 }
 .container{
-    text-allign: center;
+    text-align: center;
     position: absolute;
     background: rgb(255,255,255,0.3);
 	backdrop-filter: blur(10px);
@@ -81,7 +81,7 @@ button:hover{
 @media screen and (max-width:756px)
 {
 	body{
-		background-image: url(Asset/mobile-bg.png);
+		background-image: url(mobile-bg.png);
 	}
 	.container{
 		margin:0 auto;
