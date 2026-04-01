@@ -78,24 +78,66 @@ button:hover{
 	transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 
 }
-@media screen and (max-width:756px)
-{
-	body{
-		background-image: url(mobile-bg.png);
-	}
-	.container{
-		margin:0 auto;
-		width: 90%;
-		max-width:400px;
-		padding-right: 60px;
+/* Default improvements */
+.container {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /* remove old margin */
+}
 
-	}
-	.containor h3{
-		text-align: center;
-	}
-	.input-box{
+/* 📱 Mobile (small phones) */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
 
-		font-size: 16px;
-		padding: 15px 20px;
-	}
+    .container h3 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        padding: 12px;
+        width: 100%;
+    }
+
+    button {
+        width: 60%;
+        margin-left: 20%;
+        padding: 10px;
+    }
+}
+
+/* 📱 Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 70%;
+        height: auto;
+    }
+
+    button {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+
+/* 💻 Small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+
+    button {
+        width: 30%;
+        margin-left: 35%;
+    }
+}
+
+/* 🖥️ Large screens */
+@media (min-width: 1025px) {
+    .container {
+        width: 30%;
+    }
 }
